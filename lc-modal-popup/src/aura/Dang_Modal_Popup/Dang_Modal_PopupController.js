@@ -8,13 +8,13 @@
 	closeBtn : function(component, event, helper) {
         component.set("v.displayModal", false);
 	},
-	yesBtn : function(componet, event, helper) {
+	yesBtn : function(component, event, helper) {
    	var urlEvent = $A.get("e.force:navigateToURL");
 		urlEvent.setParams({
 			"url": "https://www.google.com"
 		});
 		urlEvent.fire();
-    component.set("v.displayModal", false);
+    	component.set("v.displayModal", false);
 	},
 	noBtn : function(component, event, helper) {
         component.set("v.displayModal", false);
