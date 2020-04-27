@@ -1,4 +1,4 @@
-<aura:component implements="forceCommunity:availableForAllPageTypes" access="global" >    
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId,flexipage:availableForAllPageTypes,forceCommunity:availableForAllPageTypes" access="global" >    
 	<aura:attribute name="displayModal" type="Boolean" default="false" />
   	<div class="slds-form slds-form_compound">
 	    <br />
