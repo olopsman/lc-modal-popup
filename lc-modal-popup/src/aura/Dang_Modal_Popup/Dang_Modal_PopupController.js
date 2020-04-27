@@ -9,7 +9,7 @@
         component.set("v.displayModal", false);
 	},
 	yesBtn : function(componet, event, helper) {
-   	var urlEvent = $A.get("force:navigateToURL");
+   	var urlEvent = $A.get("e.force:navigateToURL");
 		urlEvent.setParams({
 			"url": "https://www.google.com"
 		});
